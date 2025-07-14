@@ -264,12 +264,12 @@ angular-mocks@1.4.8:
   resolved "https://registry.yarnpkg.com/angular-mocks/-/angular-mocks-1.4.8.tgz#1497426d480862ca8b1f637e9c2fc1a1df664208"
   integrity sha1-FJdCbUgIYsqLH2N+nC/Bod9mQgg=
 
-angular-moment@0.9.0:
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/angular-moment/-/angular-moment-0.9.0.tgz#12c0bb767779844375b4523640f167dbb603a1e1"
-  integrity sha1-EsC7dnd5hEN1tFI2QPFn27YDoeE=
+angular-moment@1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/angular-moment/-/angular-moment-1.0.0.tgz#6f549023f0bf213d17261f66159fd1d12540eaba"
+  integrity sha512-hppKwQWOMjjunQ0E33X8mWIncMelDXSxIzh2pRHIa2joUByGhzX3zNr1Oh8JCXn7fhHcwwLRxQZzUsdpl7IK8Q==
   dependencies:
-    moment ">=2.8.0 <2.10.0"
+    moment ">=2.8.0 <3.0.0"
 
 angular-resource@1.4.8:
   version "1.4.8"
@@ -301,13 +301,13 @@ angular-uuid4@0.3.1:
   resolved "https://registry.yarnpkg.com/angular-uuid4/-/angular-uuid4-0.3.1.tgz#b8b50beb10cebff4ba52312fd7bd4ed8d99b49d7"
   integrity sha1-uLUL6xDOv/S6UjEv171O2NmbSdc=
 
-angular-websocket@1.0.9:
-  version "1.0.9"
-  resolved "https://registry.yarnpkg.com/angular-websocket/-/angular-websocket-1.0.9.tgz#bc4ede3e117ddb23d39d4b0b3693ae007d5de641"
-  integrity sha1-vE7ePhF92yPTnUsLNpOuAH1d5kE=
+angular-websocket@1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/angular-websocket/-/angular-websocket-1.1.0.tgz#9ed272ae79fda9c6a2d38eb1aaea28a8d8d7c30c"
+  integrity sha512-ibGDac5y6GYTUhTFLYHowp/YY6+ym7um0bjWrAvVsNOUkkwG6acIklOECGHzz8p6wBnH9Hg6q+BMN8IHoU5gZg==
   dependencies:
     angular "*"
-    ws "^0.7.1"
+    ws "^1.0.0"
 
 angular@*:
   version "1.7.5"
@@ -1324,11 +1324,6 @@ binaryextensions@~1.0.0:
   resolved "https://registry.yarnpkg.com/binaryextensions/-/binaryextensions-1.0.1.tgz#1e637488b35b58bda5f4774bf96a5212a8c90755"
   integrity sha1-HmN0iLNbWL2l9HdL+WpSEqjJB1U=
 
-bindings@1.2.x:
-  version "1.2.1"
-  resolved "https://registry.yarnpkg.com/bindings/-/bindings-1.2.1.tgz#14ad6113812d2d37d72e67b4cacb4bb726505f11"
-  integrity sha1-FK1hE4EtLTfXLme0ystLtyZQXxE=
-
 blob@0.0.4:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/blob/-/blob-0.0.4.tgz#bcf13052ca54463f30f9fc7e95b9a47630a94921"
@@ -1587,14 +1582,6 @@ bufferstreams@1.0.2:
   integrity sha1-N2Q95F+PhIdVAxEShOfDi1a41U8=
   dependencies:
     readable-stream "^2.0.0"
-
-bufferutil@1.1.x:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/bufferutil/-/bufferutil-1.1.0.tgz#3f96be77a7f8652ff69ef29f1cabc8b89f7fd972"
-  integrity sha1-P5a+d6f4ZS/2nvKfHKvIuJ9/2XI=
-  dependencies:
-    bindings "1.2.x"
-    nan "1.8.x"
 
 builtin-modules@^1.0.0:
   version "1.1.1"
@@ -7433,10 +7420,10 @@ modify-filename@^1.0.0, modify-filename@^1.1.0:
   resolved "https://registry.yarnpkg.com/modify-filename/-/modify-filename-1.1.0.tgz#9a2dec83806fbb2d975f22beec859ca26b393aa1"
   integrity sha1-mi3sg4Bvuy2XXyK+7IWcoms5OqE=
 
-"moment@>=2.8.0 <2.10.0":
-  version "2.9.0"
-  resolved "https://registry.yarnpkg.com/moment/-/moment-2.9.0.tgz#77ec1175fa294f42627f10c8e6de6302c036f6d5"
-  integrity sha1-d+wRdfopT0JifxDI5t5jAsA29tU=
+"moment@>=2.8.0 <3.0.0":
+  version "2.30.1"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.30.1.tgz#f8c91c07b7a786e30c59926df530b4eac96974ae"
+  integrity sha512-uEmtNhbDOrWPFS+hdjFCBfy9f2YoyzRpwcl+DqpC6taX21FzsTLQVbMV/W7PzNSX6x/bhC1zA3c2UQ5NzH6how==
 
 move-concurrently@^1.0.1:
   version "1.0.1"
@@ -7500,11 +7487,6 @@ mute-stream@0.0.5:
   version "0.0.5"
   resolved "https://registry.yarnpkg.com/mute-stream/-/mute-stream-0.0.5.tgz#8fbfabb0a98a253d3184331f9e8deb7372fac6c0"
   integrity sha1-j7+rsKmKJT0xhDMfno3rc3L6xsA=
-
-nan@1.8.x:
-  version "1.8.4"
-  resolved "https://registry.yarnpkg.com/nan/-/nan-1.8.4.tgz#3c76b5382eab33e44b758d2813ca9d92e9342f34"
-  integrity sha1-PHa1OC6rM+RLdY0oE8qdkuk0LzQ=
 
 nan@^2.9.2:
   version "2.11.1"
@@ -11068,14 +11050,6 @@ useragent@^2.1.6:
     lru-cache "4.1.x"
     tmp "0.0.x"
 
-utf-8-validate@1.1.x:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/utf-8-validate/-/utf-8-validate-1.1.0.tgz#521a6bb2189d0b307ddc5b79c3c95a5fd8085db4"
-  integrity sha1-UhprshidCzB93Ft5w8laX9gIXbQ=
-  dependencies:
-    bindings "1.2.x"
-    nan "1.8.x"
-
 util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
@@ -11569,18 +11543,7 @@ write@^0.2.1:
   dependencies:
     mkdirp "^0.5.1"
 
-ws@^0.7.1:
-  version "0.7.2"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-0.7.2.tgz#438c560bdfa2b7da3dd5b6b46ed61325c24699d8"
-  integrity sha1-Q4xWC9+it9o91ba0btYTJcJGmdg=
-  dependencies:
-    options ">=0.0.5"
-    ultron "1.0.x"
-  optionalDependencies:
-    bufferutil "1.1.x"
-    utf-8-validate "1.1.x"
-
-ws@^1.0.1, ws@~1.1.5:
+ws@^1.0.0, ws@^1.0.1, ws@~1.1.5:
   version "1.1.5"
   resolved "https://registry.yarnpkg.com/ws/-/ws-1.1.5.tgz#cbd9e6e75e09fc5d2c90015f21f0c40875e0dd51"
   integrity sha512-o3KqipXNUdS7wpQzBHSe180lBGO60SoK0yVo3CYJgb2MkobuWuBX6dhkYP5ORCLd55y+SaflMOV5fqAB53ux4w==
